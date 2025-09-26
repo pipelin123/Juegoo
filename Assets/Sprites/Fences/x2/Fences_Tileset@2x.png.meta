@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 49f204baa8250d042afe06972a8eb43b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1980774772899122751
+    second: Fences_Tileset@2x_0
+  - first:
+      213: -539690101341880473
+    second: Fences_Tileset@2x_1
+  - first:
+      213: 4101753301661492767
+    second: Fences_Tileset@2x_2
+  - first:
+      213: -391441775521768110
+    second: Fences_Tileset@2x_3
+  - first:
+      213: -8468736194177797224
+    second: Fences_Tileset@2x_4
+  - first:
+      213: 6579753013901330682
+    second: Fences_Tileset@2x_5
+  - first:
+      213: 2688680870476377924
+    second: Fences_Tileset@2x_6
+  - first:
+      213: 630051714802874611
+    second: Fences_Tileset@2x_7
+  - first:
+      213: -2626304373873734034
+    second: Fences_Tileset@2x_8
+  - first:
+      213: 2800780031831079012
+    second: Fences_Tileset@2x_9
+  - first:
+      213: 9005477238492350664
+    second: Fences_Tileset@2x_10
+  - first:
+      213: -11861589567951568
+    second: Fences_Tileset@2x_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fences_Tileset@2x_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 815
+        width: 50
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1fa41b6dfd284e0800000000000000
+      internalID: -1980774772899122751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_Tileset@2x_1
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 815
+        width: 665
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ff8b456b2a288f0800000000000000
+      internalID: -539690101341880473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_Tileset@2x_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 559
+        width: 154
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f16a1d555ea5ce830800000000000000
+      internalID: 4101753301661492767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_Tileset@2x_3
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 511
+        width: 154
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25dd6c377c1519af0800000000000000
+      internalID: -391441775521768110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_Tileset@2x_4
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 511
+        width: 154
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893f989fc41097a80800000000000000
+      internalID: -8468736194177797224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_Tileset@2x_5
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 511
+        width: 50
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8056f418aff4b50800000000000000
+      internalID: 6579753013901330682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_Tileset@2x_6
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 255
+        width: 50
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fe127a10d105520800000000000000
+      internalID: 2688680870476377924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_Tileset@2x_7
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 255
+        width: 154
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f873fa42b46eb800800000000000000
+      internalID: 630051714802874611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_Tileset@2x_8
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 255
+        width: 513
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e8333361e7d8bd0800000000000000
+      internalID: -2626304373873734034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_Tileset@2x_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 153
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4687c4b899e5ed620800000000000000
+      internalID: 2800780031831079012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_Tileset@2x_10
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 47
+        width: 154
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8c339d5d1e9fc70800000000000000
+      internalID: 9005477238492350664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences_Tileset@2x_11
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 0
+        width: 154
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03da45772fbd5dff0800000000000000
+      internalID: -11861589567951568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Fences_Tileset@2x_0: -1980774772899122751
+      Fences_Tileset@2x_1: -539690101341880473
+      Fences_Tileset@2x_10: 9005477238492350664
+      Fences_Tileset@2x_11: -11861589567951568
+      Fences_Tileset@2x_2: 4101753301661492767
+      Fences_Tileset@2x_3: -391441775521768110
+      Fences_Tileset@2x_4: -8468736194177797224
+      Fences_Tileset@2x_5: 6579753013901330682
+      Fences_Tileset@2x_6: 2688680870476377924
+      Fences_Tileset@2x_7: 630051714802874611
+      Fences_Tileset@2x_8: -2626304373873734034
+      Fences_Tileset@2x_9: 2800780031831079012
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
