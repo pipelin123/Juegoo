@@ -11,14 +11,18 @@ public class Buttons : MonoBehaviour
     public GameObject PausePanel;
     public GameObject SettingsPanel;
 
+    public bool isPaused = false;
+
     public void PlayGame()
     {
         SceneManager.LoadScene(1);
+        Time.timeScale = 1f;
     }
 
     public void GoMenu()
     {
         SceneManager.LoadScene(0);
+        Time.timeScale = 1f;
     }
 
     public void ExitGame()
@@ -39,11 +43,15 @@ public class Buttons : MonoBehaviour
     public void PauseOn()
     {
         PausePanel.SetActive(true);
+        Time.timeScale = 0f;
+        isPaused = true;
     }
 
     public void PauseOff()
     {
         PausePanel.SetActive(false);
+        Time.timeScale = 1f;
+        isPaused = false;
     }
 
     public void SettingsOn()
@@ -55,6 +63,7 @@ public class Buttons : MonoBehaviour
     {
         SettingsPanel.SetActive(false);
     }
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
