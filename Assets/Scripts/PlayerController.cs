@@ -84,12 +84,12 @@ public class PlayerController : MonoBehaviour
 
     void UpdateTextRabano()
     {
-        textRabano.text = "Rabanos: " + rabano +"/10";
+        textRabano.text = rabano +"/10";
     }
 
     void UpdateTextRemolacha()
     {
-        textRemolacha.text = "Remolachas: " + remolacha +"/20";
+        textRemolacha.text = remolacha +"/20";
     }
     void UpdateTextNotification()
     {
@@ -97,9 +97,6 @@ public class PlayerController : MonoBehaviour
         {
             textNotification.text = "¡Has ganado! Nivel completado";
         }
-        else
-        {
-            textNotification.text = "";
-        }
+
     }    
 }
