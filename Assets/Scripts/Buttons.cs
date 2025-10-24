@@ -10,6 +10,7 @@ public class Buttons : MonoBehaviour
     public GameObject CreditsPanel;
     public GameObject PausePanel;
     public GameObject SettingsPanel;
+    public GameObject SettingsPanel1;
     public GameObject InstructionsPanel;
     
 
@@ -60,8 +61,17 @@ public class Buttons : MonoBehaviour
     public void SettingsOn()
     {
         SettingsPanel.SetActive(true);
+    }
+
+    public void SettingsOn1()
+    {
+        SettingsPanel1.SetActive(true);
         PausePanel.SetActive(false);
 
+    }
+    public void SettingsOff1()
+    {
+        SettingsPanel1.SetActive(false);
     }
 
     public void SettingsOff()
@@ -72,6 +82,7 @@ public class Buttons : MonoBehaviour
     public void InstructionsOff()
     {
         InstructionsPanel.SetActive(false);
+        Time.timeScale = 1f;
     }
 
 
@@ -80,7 +91,7 @@ public class Buttons : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
