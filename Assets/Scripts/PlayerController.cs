@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public TextMeshProUGUI textRabano;
     public TextMeshProUGUI textRemolacha;
     public TextMeshProUGUI textNotification;
+    public GameObject GameOverPanel;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -70,7 +71,8 @@ public class PlayerController : MonoBehaviour
         {
             hasSpike = true;
             Debug.Log("has muerto!");
-            Destroy(gameObject);
+            GameOverPanel.SetActive(true);
+            Time.timeScale = 0f;
         }
         
         

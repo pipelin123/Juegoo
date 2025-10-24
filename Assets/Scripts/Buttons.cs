@@ -10,10 +10,13 @@ public class Buttons : MonoBehaviour
     public GameObject CreditsPanel;
     public GameObject PausePanel;
     public GameObject SettingsPanel;
+    public GameObject InstructionsPanel;
+    
+
 
     public bool isPaused = false;
 
-    public void PlayGame()
+    public void PlayGame() 
     {
         SceneManager.LoadScene(1);
         Time.timeScale = 1f;
@@ -57,12 +60,21 @@ public class Buttons : MonoBehaviour
     public void SettingsOn()
     {
         SettingsPanel.SetActive(true);
+        PausePanel.SetActive(false);
+
     }
 
     public void SettingsOff()
     {
         SettingsPanel.SetActive(false);
     }
+
+    public void InstructionsOff()
+    {
+        InstructionsPanel.SetActive(false);
+    }
+
+
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
