@@ -1,24 +1,26 @@
-using UnityEngine;
 using TMPro; //libreria para usar textos
+using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
     public float speed = 5f; //variable para guardar la velocidad
     public int rabano = 0;
     public int remolacha = 0;
+    public int score = 0;
     public bool hasKey = false;
     public bool hasSpike = false;
     public TextMeshProUGUI textRabano;
     public TextMeshProUGUI textRemolacha;
-    public TextMeshProUGUI textNotification;
+    public TextMeshProUGUI textScore;
     public GameObject GameOverPanel;
+    public GameObject VictoryPanel;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         UpdateTextRabano();
         UpdateTextRemolacha();
-        UpdateTextNotification();
+        UpdateTextScore();
     }
 
     // Update is called once per frame
@@ -32,7 +34,6 @@ public class PlayerController : MonoBehaviour
         Vector3 direction = new Vector3(moveHorizontal, moveVertical, 0);
 
         transform.Translate(direction * speed * Time.deltaTime);
-        UpdateTextNotification();
 
     }
     //funcion especial que se ejecuta cuando se toca a otro objeto que tiene un collider en modo //trigger
@@ -47,6 +48,8 @@ public class PlayerController : MonoBehaviour
             Destroy(other.gameObject);
             Debug.Log("Collected!!!");
             Debug.Log("Score: " + rabano);
+            score = score + 100;
+            UpdateTextScore();
 
         }
         if (other.CompareTag("remolacha"))
@@ -57,6 +60,8 @@ public class PlayerController : MonoBehaviour
             Destroy(other.gameObject);
             Debug.Log("Collected!!!");
             Debug.Log("Score: " + remolacha);
+            score = score + 200;
+            UpdateTextScore();
 
         }
         if (other.CompareTag("Key"))
@@ -64,7 +69,6 @@ public class PlayerController : MonoBehaviour
             hasKey = true;
             Debug.Log("has recolectado la llave!");
             Destroy(other.gameObject);
-            UpdateTextNotification();
             
         }
         if (other.CompareTag("Spike"))
@@ -80,7 +84,8 @@ public class PlayerController : MonoBehaviour
         if (rabano + remolacha >= 30 || hasKey && !hasSpike)  //solo en un booleano si se pregunta sin nada es verdadero, y con un signo de admiracion al principio es falso
         {
             Debug.Log("Has ganado. Tienes suficientes puntos, la llave y no has tocado los pinchos");
-            
+            VictoryPanel.SetActive(true);
+            Time.timeScale = 0f;
         }
     }
 
@@ -93,12 +98,9 @@ public class PlayerController : MonoBehaviour
     {
         textRemolacha.text = remolacha +"/20";
     }
-    void UpdateTextNotification()
-    {
-        if (rabano + remolacha >= 30 || hasKey && !hasSpike)
-        {
-            textNotification.text = "¡Has ganado! Nivel completado";
-        }
 
-    }    
+    void UpdateTextScore()
+    {
+        textScore.text = score +"";
+    }
 }
