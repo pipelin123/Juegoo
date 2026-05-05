@@ -25,8 +25,8 @@ public class Buttons : MonoBehaviour
 
     public void GoMenu()
     {
-        SceneManager.LoadScene(0);
         Time.timeScale = 1f;
+        SceneManager.LoadScene(0);
     }
 
     public void ExitGame()
